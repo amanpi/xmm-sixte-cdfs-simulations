@@ -51,8 +51,7 @@ options(digits = 12)
 message("CDFS pipeline will be run over OBSIDs:")
 print(obsId)
 
-#for ( iobs in 3:length(obsId$V1)) {
-for ( iobs in 1 ) {
+for ( iobs in 3:length(obsId$V1)) {
 
   ## Create simulation directory
   obsSim <- obsId$V1[iobs]
