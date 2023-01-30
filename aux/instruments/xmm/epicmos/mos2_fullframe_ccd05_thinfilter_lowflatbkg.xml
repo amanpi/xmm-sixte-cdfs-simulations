@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instrument instrume="EMOS2" telescop="XMM">
+ <telescope>
+  <focallength value="7.5"/>
+  <fov diameter="0.5"/>
+  <psf filename="xmm_mos1_psf.fits"/>
+  <vignetting filename="xmm_mos2_vignet.fits"/>
+ </telescope>
+ <detector type="EPIC-mos1">
+  <dimensions xwidth="600" ywidth="600"/>
+  <wcs rota="90.0" xdelt="4e-05" xrpix="300.5" xrval="0.012017200469970703" ydelt="4e-05" yrpix="300.5" yrval="-0.024022499084472657"/>
+  <cte value="1"/>
+  <rmf filename="mos2-thin-10.rmf"/>
+  <arf filename="mos2-thin-10.arf"/>
+  <phabackground filename="mos1flat_low_background_spectrum.fits"/>
+  <split par1="11.e-6" type="gauss"/>
+  <threshold_readout_lo_keV value="0."/>
+  <threshold_event_lo_keV value="200.e-3"/>
+  <threshold_split_lo_fraction value="0.01"/>
+  <threshold_pattern_up_keV value="12."/>
+  <readout mode="time">
+   <wait time="2.6"/>
+   <loop end="599" increment="1" start="0" variable="$i">
+    <readoutline lineindex="0" readoutindex="$i"/>
+    <lineshift/>
+    <wait time="23.04e-6"/>
+   </loop>
+   <newframe/>
+  </readout>
+ </detector>
+</instrument>
