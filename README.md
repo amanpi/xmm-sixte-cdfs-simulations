@@ -32,5 +32,5 @@ The individual tasks of the source detection chain `eboxdetect, emldetect, eexpm
 
 ## Acknowledgements
 
-Based on previous work by [Angel Ruiz](https://github.com/ruizca/sixtexmm), Iris Traulsen, [Sam Sweere](https://github.com/SamSweere/xmm-epicpn-simulator), plus support from Bamberg (Christian Kirsch, Joern Wilms) through the SIXTE helpdesk.
+Based on jupyter notebooks and previous work by [Angel Ruiz](https://github.com/ruizca/sixtexmm), also Iris Traulsen, [Sam Sweere](https://github.com/SamSweere/xmm-epicpn-simulator), plus support from Bamberg (Christian Kirsch, Joern Wilms) through the SIXTE helpdesk.
 
