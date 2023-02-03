@@ -2,7 +2,7 @@
 
 A pipeline to generate simulated XMM-Newton observations of the Chandra Deep Field South (CDFS) and run source detection.
 
-The goal is to test the performance of the source detection software in repeated (overlapping) XMM-Newton observations of a given field.
+The goal is to test the performance of the source detection software in repeated (overlapping) XMM-Newton observations.
 
 ## Details
 
@@ -29,4 +29,8 @@ The individual tasks of the source detection chain `eboxdetect, emldetect, eexpm
 ## Auxiliary data
 - [simput files of the CDFS](https://www.sternwarte.uni-erlangen.de/~sixte/simput/CDFS_combined_simput.tgz)
 - pn/MOS1/MOS2 event lists and attitude files of the observations to be simulated
+
+## Acknowledgements
+
+Based on previous work by [Angel Ruiz](https://github.com/ruizca/sixtexmm), Iris Traulsen, [Sam Sweere](https://github.com/SamSweere/xmm-epicpn-simulator), plus support from Bamberg (Christian Kirsch, Joern Wilms) through the SIXTE helpdesk.
 
