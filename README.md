@@ -12,7 +12,7 @@ The simulated observations are performed with the [SIXTE](https://www.sternwarte
 
 As of November 2022 the XMM-Newton pn/MOS [instrument files](https://www.sternwarte.uni-erlangen.de/~sixte/downloads/sixte/instruments/instruments_xmm-1.2.1.tar.gz) included in SIXTE take into account the PSF, vignetting, effective area, instrumental background etc.
 
-Dedicated XML files with the detector geometry and configuration of each individual pn/MOS1/MOS2 chip were created for the simulations using [epic_xmm_files](https://github.com/ruizca/sixtexmm.git) Jupyter Notebook developed by Angel Ruiz.
+Dedicated XML files with the detector geometry and configuration of each individual pn/MOS1/MOS2 chip were created for the simulations using the [epic_xmm_files](https://github.com/ruizca/sixtexmm.git) Jupyter Notebook developed by Angel Ruiz.
 
 We are making use of [sample SIMPUT](https://www.sternwarte.uni-erlangen.de/~sixte/simput/CDFS_combined_simput.tgz) files distributed by the SIXTE team. They include both point and extended sources and diffuse emission of the CDFS.
 
